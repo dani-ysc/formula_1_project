@@ -20,7 +20,7 @@ new_column_names = {'qualifyingId': 'qualifying_id',
 qualifying_df.rename(columns=new_column_names, axis='columns', inplace=True)
 
 qualifying_df = qualifying_df.astype(
-    {'qualifyingId': 'int64',
+    {'qualifying_id': 'int64',
     'race_id': 'int64',
     'driver_id': 'int64',
     'constructor_id': 'int64',

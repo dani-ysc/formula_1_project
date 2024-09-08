@@ -17,3 +17,5 @@ print(df['column'].isnull().sum())
 # Looking at a list of unique values in a column:
 df['column'].unique
 
+# Checking description statistics about numerical values in a dataset
+df.describe()
